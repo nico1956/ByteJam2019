@@ -1,0 +1,432 @@
+<!--- color palette
+#6DC49A light aqua
+#2DA38B dark aqua
+#FFF    white
+#62D5D6 light blue
+-->
+
+
+
+<!DOCTYPE html> 
+<html>    
+<head>
+<title>Byte Jam Western Project </title>       
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   /*  .col-xs-2.col-md-6.col-lg-12 {
+    border: 0px dotted purple;
+  }
+  .col-lg-3 {
+    border: 3px dotted blue;
+  }
+  .col-lg-3.col-md-3.col-sm-6.col-xs-12.nopadding.center-align {
+    border: 3px dotted green;
+  }
+  .col-lg-12.col-md-4.col-sm-2.col-xs-2.center-align{
+    border: 3px dotted red;
+  } */
+  
+  /**** Misc****/
+  html,body {width:100%;
+    padding: 0;
+    margin: 0;
+	overflow-x: hidden; 
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    background-color:black;
+    padding: 0;
+    margin: 0;
+  }
+  .bg {
+    background-color:black;
+    border: 0;
+  }     
+  h4.text-center {
+    color: #6DC49A;
+    margin: 30px 0 30px 0;
+  }   
+  .center-img {
+    position: relative;
+    margin-left: 150px;
+  }
+  .white-text {
+    color: #FFF;
+  }
+  .nospacing {
+    padding: 0;
+    margin: 0;
+  }
+  /**** Header ****/
+  header {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  header.container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  /**** .Navbar ****/
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-     nav > .active > a:focus, .navbar-inverse .navbar-nav > .active >      a:hover {background-color:#34bda1;
+    color: #ffffff;
+    border-bottom:2px solid #14c29f;         
+    background-position:center bottom;         
+    background-repeat:no-repeat; 
+  }
+  .navbar-brand{ width: 196px; height: 50px; 
+  margin-bottom: 45px; 
+  
+  }
+  .navbar {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }    
+  .navbar-inverse .navbar-nav > li > a {         
+    color: white;
+    padding: 20px;    
+  }    
+  .navbar-inverse .navbar-nav > li > a:hover {         
+    color:white;
+    background-color:black ;         
+    border-bottom:2px solid #1f6d5d; 
+    background-position:center bottom;
+    background-repeat:no-repeat;
+  }
+  /**** Main ****/
+  main .container-fluid {
+    position: relative;
+    padding: 0;
+    margin-bottom: -35px;
+    width: 100%;
+	height: 100%;
+	background-color: black; 
+  }
+  main .container-fluid.float-left {
+    position: relative;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+  main .main-bg {
+    background-image: url(images/lonecowboy-bg-sm.png);
+  }
+  main .col-lg-6.text-para.float-left p {
+    margin-left: 60px;
+  }
+  .col-lg-6.text-para.float-left {
+    position: relative;
+    color: #FFF;
+    margin-left: 385px;
+    margin-top: 10px;
+  }
+  .mx-auto .d-block {
+    margin: 10px;
+  }
+  /**** .Jumbotron ****/
+  .jumbotron-fluid {
+    background-image:url(images/oldwest.jpg);
+    height: 700px; 
+    margin-bottom: -150px;
+    padding: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-color: black; 
+	color: #FFF;
+  }
+  .jumbotron-fluid h1 {
+    font-weight:500;
+    position: relative;
+    left: 385px;
+    top: 115px;
+  }
+  .jumbotron-fluid h1 strong {
+    font-weight: 700;
+  }
+  .jumbotron-fluid p {
+    position: relative;
+    left: 385px;
+    top: 125px;
+  }
+  /**** .Btn ****/
+  .jumbotron-fluid .btn {
+    left: 385px;
+    top: 135px;
+    position: relative;
+    background-color: #454a4e;
+    border-color: #26292c;
+    border-style: solid;
+    border-radius: 0;
+    border-width: .5px 1.75px 2.25px .5px;
+  }
+  .text-btn a {
+    background-color: #454a4e;
+    border-color: #26292c;
+    border-style: solid;
+  } 
+  a.btn.float-right {
+    position: relative;
+    background-color: #454a4e;
+    border-color: #26292c;
+    border-style: solid;
+    border-radius: 0;
+    margin-right: 250px;
+    margin-top: 60px;
+  }
+  /**** Section ****/
+  section {
+    margin-top: 55px;
+  }
+  section.bottom-row.container-fluid.center-align {
+	margin-top: 0;
+  }
+  
+  section .img-fluid.center-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .container-fluid {
+  padding: 0px;
+  margin: 0px;
+    width: 100%;
+  }
+  section.container-fluid {
+    display: inline-block;
+  }
+  /**** Footer ****/
+  footer.footer-bg {
+    background-color: black; 
+    width: 100%;
+    height: 100px;
+  }
+  footer .container-fluid {
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+    height: 262px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+  footer .white-text.text-center{
+    margin: 95px 0;
+  }
+  footer .col-lg-12 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  footer .img-fluid {
+    width: 16%;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  /**** @media ****/
+    @media (max-width: 769px) {
+      .left-align {
+        text-align:left;
+      }
+      .center-align {
+        text-align:center;
+        align-content: center;
+      }
+      .right-align {
+        text-align: right;
+      }
+      .nopadding {
+        padding: 0px;
+      }
+    }
+  @media (min-width: 990px) {
+    .left-align {
+        text-align:left;
+      }
+      .center-align {
+        text-align:center;
+        align-content: center;
+      }
+      .right-align {
+        text-align: right;
+      }
+      .nopadding {
+        padding: 0px;
+      }
+  }   
+</style>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head> 
+ 
+<body class="nospacing">
+
+<!---------------      Header, Sapphire Logo and Navbar Section      ---------------->
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-inverse ">
+      <div class="container">
+        <div class="float-left"> 
+        <a class="navbar-brand"  onclick="openHome()"><img src="images/coding-page.png" alt=" coding cowboys logo" /></a>
+        </div> <!-- end class float-left -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+    
+      <div class="float-right">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav"> 
+<<<<<<< HEAD
+        <li class="active"><a href="#">Home</a></li>         
+        <li><a href="#">Gun Slinger</a></li>         
+        <li><a href="#">Sheriff Chase</a></li>         
+        <li><a href="#">Cowboy Name Generator</a></li>         
+        <li><a href="#">Cowboy Trivia</a></li>         
+=======
+        <li class="active"><a onclick="openHome()">Home</a></li>         
+        <li><a onclick="openGameOne()">Pages</a></li>         
+        <li><a onclick="openGameTwo()">Features</a></li>         
+        <li><a onclick="openGameThree()">Portfolio</a></li>         
+        <li><a onclick="openGameFour()">Blog</a></li>         
+>>>>>>> 4fd00c4b278122cf081ed2eb78faa837d580b2a6
+        <li><a href="#">Contact</a></li>        
+      </ul> 
+      </div> <!-- end .collapse navbar-collapse -->
+      </div> <!-- end .float-right -->
+    </div> <!-- end .container -->
+    </nav>
+  </header> <!--end .container-fluid -->
+  
+<!---------------        Jumbotron in the middle of page         ---------------->  
+<main>  
+  <div class= "container-fluid">
+    <div class="row">
+      <div class="col-xs-2 col-md-6 col-lg-12">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="col-lg-3 ">
+            <h1><strong></strong> </h1>          
+            <p> </p>
+            <a> </a>
+          </div> <!-- end .col jumbotron text and btn -->
+        </div> <!-- end.jumbotron-fluid -->
+      </div> <!-- end .column col-md-12 -->
+    </div> <!-- end .row -->
+  </div> <!-- end .container-fluid -->  
+        
+<!---------------  Paragraph/ Buy It Now BTN in the middle of page   -------------->      
+  <div class="container-fluid main-bg">
+    <div class="row">
+      <div class="col-lg-12">                   
+            <div class="col-lg-6 text-para float-left">
+              <h1><img src="images/icon-cloud.png" alt="Cloud Icon"> Coding Cowboys Title or Whatever </h1>	
+                <p> A quick or long description on the team and what we did.  <br> A little more about what we did here............................................................................  <br> the closing about how we did it or our names or something.....................................................................................................................................................................<br> Just trying to extend. </p> <br><br>
+				
+            </div> <!-- end .col-lg-12 text-btn float-left -->
+          <a> </a><!-- there was a buy now button here-->
+      </div> <!-- end .col-lg-12 -->
+    </div> <!-- end .row-->
+  </div> <!-- end .container-fluid main-bg --> 
+</main>  
+
+  <section class="container-fluid center-align">
+  <div class="container-fluid center-align"> 
+    <div class="row center-align">  
+
+	  <div class="col-lg-1 col-md-3 col-sm-6 col-xs-12 center-align">     
+			<img src="" class="mx-auto d-block" " />  <br>              
+      </div><!-- end col. spacing img-->  
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cowboy.png" class="mx-auto d-block" " alt="Cowboy Image" /><p> Here is a quick description of the game and how to play it</p>          
+      </div><!-- end .col cowboy img -->           
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cactus.png" class="mx-auto d-block" " alt="Cactus Image" /><p> Here is a quick description of the game and how to play it</p>           
+      </div><!-- end .col cactus img -->         
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cards.png" class="mx-auto d-block" " alt="Cards Image" /><p>  Here is a quick description of the game and how to play it</p>           
+      </div><!-- end .col cards img -->          
+     
+	 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">     
+	  <img src="images/saloon.png" class="mx-auto d-block" " alt="Saloon Image" /><p>  Here is a quick description of the game and how to play it</p>                
+      </div><!-- end col. saloon img-->   
+	  
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">     
+	  <img src="images/bullet.png" class="mx-auto d-block" " alt="Bullet Image" /><p>  Here is a quick description of the game and how to play it</p>                
+      </div><!-- end col. bullet img-->  
+	  
+    </div>
+  </div> 
+</section> 
+</section> <!-- end .container-fluid -->
+
+<!--------------- 4 images above footer columns in the middle of page  ---------------->
+<<<<<<< HEAD
+<section class="bottom-row container-fluid center-align">
+  
+    <div class="row center-align">
+
+	<div class="col-lg-1 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="" class="mx-auto d-block" width="100%" " />          
+      </div><!-- Here just for spacing  -->  	
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/chair.jpg" class="mx-auto d-block" width="110%" alt="Chair Image" />          
+      </div><!-- end .col chair img -->
+
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/chair.jpg" class="mx-auto d-block" width="110%" alt="Chair Image" />          
+      </div><!-- end .col chair img -->  	  
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/wheat.jpg" class="mx-auto d-block" width="110%" alt="Wheat Image" />           
+      </div><!-- end .col wheat img -->         
+     
+	 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/city.jpg" class="mx-auto d-block" width="110%" alt="City Image" />           
+      </div><!-- end .col city img -->          
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/Cowboy-name-generator-pic1.png" class="mx-auto d-block" width="110%" alt="Fence Image" />  
+		</div><!--end .col fence img -->
+		
+=======
+<section class="container-fluid center-align">
+  <div class="container-fluid center-align"> 
+    <div class="row center-align">          
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/chair.jpg" onclick="openGameOne()" class="mx-auto d-block" width="90%" alt="Chair Image" />          
+      </div><!-- end .col chair img -->           
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/wheat.jpg" onclick="openGameTwo()" class="mx-auto d-block" width="90%" alt="Wheat Image" />           
+      </div><!-- end .col wheat img -->         
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/city.jpg" onclick="openGameThree()" class="mx-auto d-block" width="90%" alt="City Image" />           
+      </div><!-- end .col city img -->          
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/fence.jpg" onclick="openGameFour()" class="mx-auto d-block" width="90%" alt="Fence Image" />                
+      </div><!--end .col fence img -->       
+>>>>>>> 4fd00c4b278122cf081ed2eb78faa837d580b2a6
+    </div><!--end row-->
+       
+</section> <!-- end .container-fluid --> 
+    
+  <!---------------      Footer secton at bottom of page       ---------------->
+   <footer class="container-fluid footer-bg nospacing"><a class="navbar-brand"  href="#"><img src="images/coding-page.png" alt=" coding cowboys logo" /></a>
+      
+    
+      
+  </footer> <!-- end footer.container-fluid -->
+  
+  
+  
+  <!-------------------  Bootstrap and JQuery .js scripts  ------------------->
+      <script src="js/jquery-3.4.1.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+</body>
+</html> 

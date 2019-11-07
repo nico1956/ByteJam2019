@@ -20,7 +20,7 @@
 <title>Byte Jam Western Project </title>       
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    /* .col-xs-2.col-md-6.col-lg-12 {
+     .col-xs-2.col-md-6.col-lg-12 {
     border: 0px dotted purple;
   }
   .col-lg-1 {
@@ -31,18 +31,13 @@
   }
   .col-lg-12.col-md-4.col-sm-2.col-xs-2.center-align{
     border: 3px dotted red;
-  }  /*
+  } 
+  
   /**** Misc****/
- html,body {width:100%;
+  html {
     padding: 0;
     margin: 0;
-	overflow-x: hidden;}
-
-	.col-xs-2.col-md-6.col-lg-12{
-	padding:0
-	border:0 
-	margin:0 
-	}
+  }
 
   body {
     padding: 0;
@@ -114,6 +109,7 @@
   main .container-fluid {
     position: relative;
     padding: 0;
+    margin-bottom: -35px;
     width: 100%;
 	height: 100%;
 	background-color: black; 
@@ -126,7 +122,6 @@
   }
   main .main-bg {
     background-image: url(images/lonecowboy-bg-sm.png);
-	margin-top: 0px;
   }
   main .col-lg-6.text-para.float-left p {
     margin-left: 60px;
@@ -137,15 +132,14 @@
     margin-left: 385px;
     margin-top: 10px;
   }
-  
   .mx-auto .d-block {
     margin: 10px;
   }
   /**** .Jumbotron ****/
   .jumbotron-fluid {
     background-image:url(images/oldwest.jpg);
-    height: 900px; 
-    margin-bottom: 0px;
+    height: 700px; 
+    margin-bottom: -150px;
     padding: 0;
     width: 100%;
     background-repeat: no-repeat;
@@ -154,15 +148,17 @@
     background-color: black; 
 	color: #FFF;
   }
-	iframe{
-		margin: 0 0 0 0;
-	}
+	  .col-lg-1.center-align {
+	margin: 0; 
+	padding: 0; 
+	height: auto; 
+	width: auto; 
+  }
   /**** Footer ****/
   footer.footer-bg {
-    background-color: black;
-	background-image: url ("images/coding-page.png");
+    background-image: url("images/diamond-bg-lg.jpg");
     width: 100%;
-    height: 100px;
+    height: 500px;
   }
   footer .container-fluid {
     background-color: rgba(255, 255, 255, 0.404);
@@ -253,11 +249,11 @@
 <!---------------        Jumbotron in the middle of page         ---------------->  
 <main>  
   <div class= "container-fluid">
-    <div class="">
+    <div class="row">
       <div class="col-xs-2 col-md-6 col-lg-12">
         <div class="jumbotron jumbotron-fluid">
-          <div class="center-align">
-                <iframe src="https://scratch.mit.edu/projects/342467618/embed" allowtransparency="true" width="900" height="700" align = "middle" frameborder="0" scrolling="no" allowfullscreen></iframe>
+          <div class="col-lg-1 center-align ">
+                <iframe src="https://scratch.mit.edu/projects/342467618/embed" allowtransparency="true" width="785" height="702" align = "middle" frameborder="0" scrolling="no" allowfullscreen></iframe>
             
           </div> <!-- end .col jumbotron text and btn -->
         </div> <!-- end.jumbotron-fluid -->
@@ -281,12 +277,29 @@
 </main>         
 
   <!---------------      Footer secton at bottom of page       ---------------->
-  <footer class="container-fluid footer-bg nospacing"><a class="navbar-brand"  href="#"><img src="images/coding-page.png" alt=" coding cowboys logo" /></a>
-      
-        <h1 class="white-text text-center">
+  <footer class="container-fluid footer-bg nospacing">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="white-text text-center">Who we've <strong>worked</strong> with</h1>
+    
+        <div class="container-fluid">  
+        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
+          <img src="images/creatika.png" class="img-fluid" alt="Creatika Icon" />
+          <img src="images/studio-design.png" class="img-fluid" alt="Studio Design Icon" />
+          <img src="images/future-arhihtecture.png" class="img-fluid" alt="Future Arhitecture Icon" />
+          <img src="images/skyscraper.png" class="img-fluid" alt="SkyScraper Icon" />  
+        </div> <!-- end .col 1 for company icons-->
 
+        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
+          <img src="images/carter-wilson.png" class="img-fluid" alt="Carter-Wilson Icon" />
+          <img src="images/green-sapphire.png" class="img-fluid" alt="Green Sapphyre Icon" />
+          <img src="images/sun-shine.png" class="img-fluid" alt="Sun-Shine Icon" />
+          <img src="images/computer-management.png" class="img-fluid" alt="Computer Management Icon" />
+        </div> <!-- end .col 2 for company icons -->
+      </div> <!-- end container-fluid -->  
 
-      
+      </div>  <!-- end .col-lg-12 -->
+    </div> <!-- end .row -->
   </footer> <!-- end footer.container-fluid -->
   
   
