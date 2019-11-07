@@ -30,44 +30,49 @@
     myWindow.close();   // Closes the new window
 */
 
-// Scripts for opening game links
-var gameOne = ;
-var gameTwo = ;
-var gameThree = ;
-var gameFour = ;
-var gameFive = ;
+
+var gameFive = gameFive.open("/* URL Placeholder */", "_self");
 
 /* Game one open/close */
-function openGameOne():         // ADD game url
-    gameOne.open("/* URL Placeholder */", "_self")
+function openGameOne() {       // ADD game url
+    var gameOne =  gameOne.open("/* URL Placeholder */", "_self");
+}   // END openGameOne()
 
-function closeGameOne():
-    gameOne.close();
+/* function closeGameOne():
+    gameOne.close(); */
 
 /* Game two open/close */
-function openGameTwo():         // ADD game url
-    gameTwo.open("/* URL Placeholder */", "_self")
+function openGameTwo() {
+    var gameTwo = gameTwo.open("/* URL Placeholder */", "_self");
+}         // ADD game url
+    
 
-function closeGameTwo():
-    gameTwo.close();
+/* function closeGameTwo():
+    gameTwo.close(); */
 
 /* Game threeopen/close */
-function openGameThree():         // ADD game url
-    gameThree.open("/* URL Placeholder */", "_self")
+function openGameThree() {
+    var gameThree = gameThree.open("/* URL Placeholder */", "_self");
+}         // ADD game url
+    
 
-function closeGameThree():
-    gameThree.close();
+/* function closeGameThree():
+    gameThree.close(); */
 
 /* Game four open/close */
-function openGameFour():         // ADD game url
-    gameFour.open("/* URL Placeholder */", "_self")
+function openGameFour() {
+    var gameFour = gameFour.open("/* URL Placeholder */", "_self");
+}         // ADD game url
+    
 
-function closeGameFour():
-    gameFour.close();
+/* function closeGameFour():
+    gameFour.close(); */
 
 /* Game five open/close */
-function openGameFive():         // ADD game url
-    gameFive.open("/* URL Placeholder */", "_self")
+function openGameFive() {
 
-function closeGameFive():
-    gameFive.close();
+}        // ADD game url
+    
+
+/* function closeGameFive():
+    gameFive.close(); */
