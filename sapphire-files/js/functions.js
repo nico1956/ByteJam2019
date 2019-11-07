@@ -34,12 +34,12 @@
 //var gameFive = gameFive.open("/* URL Placeholder */", "_self"); 
 
 function openHome() {
-    var homePage = window.open("index.html", "_self")
+    var homePage = homePage.open("index.html", "_self")
 }   // END openHome()
 
 /* Game one open/close */
 function openGameOne() {       // ADD game url
-    var gameOne =  window.open("Gunslinger.html", "_self");
+    var gameOne =  gameOne.open("Gunslinger.html", "_self");
 }   // END openGameOne()
 
 /* function closeGameOne():
@@ -47,7 +47,7 @@ function openGameOne() {       // ADD game url
 
 /* Game two open/close */
 function openGameTwo() {
-    var gameTwo = window.open("NameGenerator.html", "_self");
+    var gameTwo = gameTwo.open("NameGenerator.html", "_self");
 }         // ADD game url
     
 
@@ -58,7 +58,7 @@ function openGameTwo() {
 
 /* Game threeopen/close */
 function openGameThree() {
-    var gameThree = window.open("/* URL Placeholder */", "_self");
+    var gameThree = gameThree.open("/* URL Placeholder */", "_self");
 }         // ADD game url
     
 
@@ -70,7 +70,7 @@ function openGameThree() {
 
 /* Game four open/close */
 function openGameFour() {
-    var gameFour = window.open("/* URL Placeholder */", "_self");
+    var gameFour = gameFour.open("/* URL Placeholder */", "_self");
 }         // ADD game url
     
 
