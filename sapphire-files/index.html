@@ -7,12 +7,6 @@
 
 
 
-
-
-
-
-
-
 <!DOCTYPE html> 
 <html>    
 <head>
@@ -33,9 +27,10 @@
   } */
   
   /**** Misc****/
-  html {
+  html,body {width:100%;
     padding: 0;
     margin: 0;
+	overflow-x: hidden; 
   }
 
   body {
@@ -48,7 +43,7 @@
     margin: 0;
   }
   .bg {
-    background-color:#FFF;
+    background-color:black;
     border: 0;
   }     
   h4.text-center {
@@ -190,11 +185,17 @@
   section {
     margin-top: 55px;
   }
+  section.bottom-row.container-fluid.center-align {
+	margin-top: 0;
+  }
+  
   section .img-fluid.center-img {
     margin-left: auto;
     margin-right: auto;
   }
   section .container-fluid {
+  padding: 0px;
+  margin: 0px;
     width: 100%;
   }
   section.container-fluid {
@@ -202,12 +203,12 @@
   }
   /**** Footer ****/
   footer.footer-bg {
-    background-image: url("images/diamond-bg-lg.jpg");
+    background-color: black; 
     width: 100%;
-    height: 500px;
+    height: 100px;
   }
   footer .container-fluid {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: black;
     z-index: 1000;
     width: 100%;
     height: 262px;
@@ -280,10 +281,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav"> 
         <li class="active"><a href="#">Home</a></li>         
-        <li><a href="#">Pages</a></li>         
-        <li><a href="#">Features</a></li>         
-        <li><a href="#">Portfolio</a></li>         
-        <li><a href="#">Blog</a></li>         
+        <li><a href="#">Gun Slinger</a></li>         
+        <li><a href="#">Sheriff Chase</a></li>         
+        <li><a href="#">Cowboy Name Generator</a></li>         
+        <li><a href="#">Cowboy Trivia</a></li>         
         <li><a href="#">Contact</a></li>        
       </ul> 
       </div> <!-- end .collapse navbar-collapse -->
@@ -347,69 +348,77 @@
   
   <section class="container-fluid center-align">
   <div class="container-fluid center-align"> 
-    <div class="row center-align">          
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/cowboy.png" class="mx-auto d-block" " alt="Chair Image" />          
-      </div><!-- end .col chair img -->           
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/cactus.png" class="mx-auto d-block" " alt="Wheat Image" />           
-      </div><!-- end .col wheat img -->         
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/cards.png" class="mx-auto d-block" " alt="City Image" />           
-      </div><!-- end .col city img -->          
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/bullet.png" class="mx-auto d-block" " alt="Fence Image" />                
-      </div>     
+    <div class="row center-align">  
+
+	  <div class="col-lg-1 col-md-3 col-sm-6 col-xs-12 center-align">     
+			<img src="" class="mx-auto d-block" " />  <br>              
+      </div><!-- end col. spacing img-->  
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cowboy.png" class="mx-auto d-block" " alt="Cowboy Image" /><p> Here is a quick description of the game and how to play it</p>          
+      </div><!-- end .col cowboy img -->           
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cactus.png" class="mx-auto d-block" " alt="Cactus Image" /><p> Here is a quick description of the game and how to play it</p>           
+      </div><!-- end .col cactus img -->         
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/cards.png" class="mx-auto d-block" " alt="Cards Image" /><p>  Here is a quick description of the game and how to play it</p>           
+      </div><!-- end .col cards img -->          
+     
+	 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">     
+	  <img src="images/saloon.png" class="mx-auto d-block" " alt="Saloon Image" /><p>  Here is a quick description of the game and how to play it</p>                
+      </div><!-- end col. saloon img-->   
+	  
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">     
+	  <img src="images/bullet.png" class="mx-auto d-block" " alt="Bullet Image" /><p>  Here is a quick description of the game and how to play it</p>                
+      </div><!-- end col. bullet img-->  
+	  
     </div>
   </div> 
 </section> 
 </section> <!-- end .container-fluid -->
 
 <!--------------- 4 images above footer columns in the middle of page  ---------------->
-<section class="container-fluid center-align">
-  <div class="container-fluid center-align"> 
-    <div class="row center-align">          
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/chair.jpg" class="mx-auto d-block" width="90%" alt="Chair Image" />          
-      </div><!-- end .col chair img -->           
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/wheat.jpg" class="mx-auto d-block" width="90%" alt="Wheat Image" />           
+<section class="bottom-row container-fluid center-align">
+  
+    <div class="row center-align">
+
+	<div class="col-lg-1 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="" class="mx-auto d-block" width="100%" " />          
+      </div><!-- Here just for spacing  -->  	
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/chair.jpg" class="mx-auto d-block" width="110%" alt="Chair Image" />          
+      </div><!-- end .col chair img -->
+
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/chair.jpg" class="mx-auto d-block" width="110%" alt="Chair Image" />          
+      </div><!-- end .col chair img -->  	  
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/wheat.jpg" class="mx-auto d-block" width="110%" alt="Wheat Image" />           
       </div><!-- end .col wheat img -->         
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/city.jpg" class="mx-auto d-block" width="90%" alt="City Image" />           
+     
+	 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/city.jpg" class="mx-auto d-block" width="110%" alt="City Image" />           
       </div><!-- end .col city img -->          
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 center-align">             
-        <img src="images/fence.jpg" class="mx-auto d-block" width="90%" alt="Fence Image" />                
-      </div><!--end .col fence img -->       
+      
+	  <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 center-align">             
+        <img src="images/Cowboy-name-generator-pic1.png" class="mx-auto d-block" width="110%" alt="Fence Image" />  
+		</div><!--end .col fence img -->
+		
     </div><!--end row-->
-  </div> <!-- end .container -->      
+       
 </section> <!-- end .container-fluid --> 
     
   <!---------------      Footer secton at bottom of page       ---------------->
-  <footer class="container-fluid footer-bg nospacing">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="white-text text-center">Who we've <strong>worked</strong> with</h1>
+   <footer class="container-fluid footer-bg nospacing"><a class="navbar-brand"  href="#"><img src="images/coding-page.png" alt=" coding cowboys logo" /></a>
+      
     
-        <div class="container-fluid">  
-        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
-          <img src="images/creatika.png" class="img-fluid" alt="Creatika Icon" />
-          <img src="images/studio-design.png" class="img-fluid" alt="Studio Design Icon" />
-          <img src="images/future-arhihtecture.png" class="img-fluid" alt="Future Arhitecture Icon" />
-          <img src="images/skyscraper.png" class="img-fluid" alt="SkyScraper Icon" />  
-        </div> <!-- end .col 1 for company icons-->
-
-        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
-          <img src="images/carter-wilson.png" class="img-fluid" alt="Carter-Wilson Icon" />
-          <img src="images/green-sapphire.png" class="img-fluid" alt="Green Sapphyre Icon" />
-          <img src="images/sun-shine.png" class="img-fluid" alt="Sun-Shine Icon" />
-          <img src="images/computer-management.png" class="img-fluid" alt="Computer Management Icon" />
-        </div> <!-- end .col 2 for company icons -->
-      </div> <!-- end container-fluid -->  
-
-      </div>  <!-- end .col-lg-12 -->
-    </div> <!-- end .row -->
+      
   </footer> <!-- end footer.container-fluid -->
+  
   
   
   <!-------------------  Bootstrap and JQuery .js scripts  ------------------->
