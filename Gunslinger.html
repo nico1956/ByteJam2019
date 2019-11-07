@@ -1,0 +1,310 @@
+
+<!--- color palette
+#6DC49A light aqua
+#2DA38B dark aqua
+#FFF    white
+#62D5D6 light blue
+-->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html>    
+<head>
+<title>Byte Jam Western Project </title>       
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+     .col-xs-2.col-md-6.col-lg-12 {
+    border: 0px dotted purple;
+  }
+  .col-lg-1 {
+    border: 5px dotted blue;
+  }
+  .col-lg-3.col-md-3.col-sm-6.col-xs-12.nopadding.center-align {
+    border: 3px dotted green;
+  }
+  .col-lg-12.col-md-4.col-sm-2.col-xs-2.center-align{
+    border: 3px dotted red;
+  } 
+  
+  /**** Misc****/
+  html {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    background-color:black;
+    padding: 0;
+    margin: 0;
+  }
+  .bg {
+    background-color:#FFF;
+    border: 0;
+  }     
+  h4.text-center {
+    color: #6DC49A;
+    margin: 30px 0 30px 0;
+  }   
+  .center-img {
+    position: relative;
+    margin-left: 150px;
+  }
+  .white-text {
+    color: #FFF;
+  }
+  .nospacing {
+    padding: 0;
+    margin: 0;
+  }
+  /**** Header ****/
+  header {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  header.container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  /**** .Navbar ****/
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-     nav > .active > a:focus, .navbar-inverse .navbar-nav > .active >      a:hover {background-color:#34bda1;
+    color: #ffffff;
+    border-bottom:2px solid #14c29f;         
+    background-position:center bottom;         
+    background-repeat:no-repeat; 
+  }
+  .navbar-brand{ width: 196px; height: 50px; 
+  margin-bottom: 45px; 
+  
+  }
+  .navbar {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }    
+  .navbar-inverse .navbar-nav > li > a {         
+    color: white;
+    padding: 20px;    
+  }    
+  .navbar-inverse .navbar-nav > li > a:hover {         
+    color:white;
+    background-color:black ;         
+    border-bottom:2px solid #1f6d5d; 
+    background-position:center bottom;
+    background-repeat:no-repeat;
+  }
+  /**** Main ****/
+  main .container-fluid {
+    position: relative;
+    padding: 0;
+    margin-bottom: -35px;
+    width: 100%;
+	height: 100%;
+	background-color: black; 
+  }
+  main .container-fluid.float-left {
+    position: relative;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+  main .main-bg {
+    background-image: url(images/lonecowboy-bg-sm.png);
+  }
+  main .col-lg-6.text-para.float-left p {
+    margin-left: 60px;
+  }
+  .col-lg-6.text-para.float-left {
+    position: relative;
+    color: #FFF;
+    margin-left: 385px;
+    margin-top: 10px;
+  }
+  .mx-auto .d-block {
+    margin: 10px;
+  }
+  /**** .Jumbotron ****/
+  .jumbotron-fluid {
+    background-image:url(images/oldwest.jpg);
+    height: 700px; 
+    margin-bottom: -150px;
+    padding: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-color: black; 
+	color: #FFF;
+  }
+	  .col-lg-1.center-align {
+	margin: 0; 
+	padding: 0; 
+	height: auto; 
+	width: auto; 
+  }
+  /**** Footer ****/
+  footer.footer-bg {
+    background-image: url("images/diamond-bg-lg.jpg");
+    width: 100%;
+    height: 500px;
+  }
+  footer .container-fluid {
+    background-color: rgba(255, 255, 255, 0.404);
+    z-index: 1000;
+    width: 100%;
+    height: 262px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+  footer .white-text.text-center{
+    margin: 95px 0;
+  }
+  footer .col-lg-12 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  footer .img-fluid {
+    width: 16%;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  /**** @media ****/
+    @media (max-width: 769px) {
+      .left-align {
+        text-align:left;
+      }
+      .center-align {
+        text-align:center;
+        align-content: center;
+      }
+      .right-align {
+        text-align: right;
+      }
+      .nopadding {
+        padding: 0px;
+      }
+    }
+  @media (min-width: 990px) {
+    .left-align {
+        text-align:left;
+      }
+      .center-align {
+        text-align:center;
+        align-content: center;
+      }
+      .right-align {
+        text-align: right;
+      }
+      .nopadding {
+        padding: 0px;
+      }
+  }   
+</style>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head> 
+ 
+<body class="nospacing">
+
+<!---------------      Header, Sapphire Logo and Navbar Section      ---------------->
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-inverse ">
+      <div class="container">
+        <div class="float-left"> 
+        <a class="navbar-brand"  href="#"><img src="images/coding-page.png" alt=" coding cowboys logo" /></a>
+        </div> <!-- end class float-left -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+    
+      <div class="float-right">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav"> 
+        <li class="active"><a href="#">Home</a></li>         
+        <li><a href="#">Gun Slinger</a></li>         
+        <li><a href="#">Sheriff Chase</a></li>         
+        <li><a href="#">Cowboy Name Generator</a></li>         
+        <li><a href="#">Cowboy Trivia</a></li>         
+        <li><a href="#">Contact</a></li>        
+      </ul> 
+      </div> <!-- end .collapse navbar-collapse -->
+      </div> <!-- end .float-right -->
+    </div> <!-- end .container -->
+    </nav>
+  </header> <!--end .container-fluid -->
+  
+<!---------------        Jumbotron in the middle of page         ---------------->  
+<main>  
+  <div class= "container-fluid">
+    <div class="row">
+      <div class="col-xs-2 col-md-6 col-lg-12">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="col-lg-1 center-align ">
+                <iframe src="https://scratch.mit.edu/projects/342467618/embed" allowtransparency="true" width="785" height="702" align = "middle" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            
+          </div> <!-- end .col jumbotron text and btn -->
+        </div> <!-- end.jumbotron-fluid -->
+      </div> <!-- end .column col-md-12 -->
+    </div> <!-- end .row -->
+  </div> <!-- end .container-fluid -->  
+        
+<!---------------  Paragraph/ Buy It Now BTN in the middle of page   -------------->      
+  <div class="container-fluid main-bg">
+    <div class="row">
+      <div class="col-lg-12">                   
+            <div class="col-lg-6 text-para float-left">
+              <h1><img src="images/icon-cloud.png" alt="Cloud Icon"> Coding Cowboys Title or Whatever </h1>	
+                <p> A quick or long description on the team and what we did.  <br> A little more about what we did here............................................................................  <br> the closing about how we did it or our names or something.....................................................................................................................................................................<br> Just trying to extend. </p> <br><br>
+				
+            </div> <!-- end .col-lg-12 text-btn float-left -->
+          <a> </a><!-- there was a buy now button here-->
+      </div> <!-- end .col-lg-12 -->
+    </div> <!-- end .row-->
+  </div> <!-- end .container-fluid main-bg --> 
+</main>         
+
+  <!---------------      Footer secton at bottom of page       ---------------->
+  <footer class="container-fluid footer-bg nospacing">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="white-text text-center">Who we've <strong>worked</strong> with</h1>
+    
+        <div class="container-fluid">  
+        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
+          <img src="images/creatika.png" class="img-fluid" alt="Creatika Icon" />
+          <img src="images/studio-design.png" class="img-fluid" alt="Studio Design Icon" />
+          <img src="images/future-arhihtecture.png" class="img-fluid" alt="Future Arhitecture Icon" />
+          <img src="images/skyscraper.png" class="img-fluid" alt="SkyScraper Icon" />  
+        </div> <!-- end .col 1 for company icons-->
+
+        <div class="col-lg-12 col-md-4 col-sm-2 col-xs-2 center-align">
+          <img src="images/carter-wilson.png" class="img-fluid" alt="Carter-Wilson Icon" />
+          <img src="images/green-sapphire.png" class="img-fluid" alt="Green Sapphyre Icon" />
+          <img src="images/sun-shine.png" class="img-fluid" alt="Sun-Shine Icon" />
+          <img src="images/computer-management.png" class="img-fluid" alt="Computer Management Icon" />
+        </div> <!-- end .col 2 for company icons -->
+      </div> <!-- end container-fluid -->  
+
+      </div>  <!-- end .col-lg-12 -->
+    </div> <!-- end .row -->
+  </footer> <!-- end footer.container-fluid -->
+  
+  
+  <!-------------------  Bootstrap and JQuery .js scripts  ------------------->
+      <script src="js/jquery-3.4.1.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script> 
+</body>
+</html> 
