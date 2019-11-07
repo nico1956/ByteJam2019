@@ -35,7 +35,7 @@ var gameFive = gameFive.open("/* URL Placeholder */", "_self");
 
 /* Game one open/close */
 function openGameOne() {       // ADD game url
-    var gameOne =  gameOne.open("/* URL Placeholder */", "_self");
+    var gameOne =  gameOne.open("Gunslinger.html", "_self");
 }   // END openGameOne()
 
 /* function closeGameOne():
@@ -47,8 +47,10 @@ function openGameTwo() {
 }         // ADD game url
     
 
-/* function closeGameTwo():
-    gameTwo.close(); */
+/* function closeGameTwo(){
+    gameTwo.close();
+}
+    */
 
 /* Game threeopen/close */
 function openGameThree() {
@@ -56,8 +58,11 @@ function openGameThree() {
 }         // ADD game url
     
 
-/* function closeGameThree():
-    gameThree.close(); */
+/* function closeGameThree() {
+    gameThree.close(); 
+    
+}
+*/
 
 /* Game four open/close */
 function openGameFour() {
@@ -65,14 +70,16 @@ function openGameFour() {
 }         // ADD game url
     
 
-/* function closeGameFour():
-    gameFour.close(); */
+/* function closeGameFour() {
+    gameFour.close(); 
+}    
+    */
 
-/* Game five open/close */
+/* Game five open/close 
 function openGameFive() {
+}            
 
-}        // ADD game url
-    
-
-/* function closeGameFive():
-    gameFive.close(); */
+function closeGameFive() {
+    gameFive.close(); 
+}
+*/
