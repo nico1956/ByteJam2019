@@ -47,7 +47,7 @@ function openGameOne() {       // ADD game url
 
 /* Game two open/close */
 function openGameTwo() {
-    var gameTwo = gameTwo.open("/* URL Placeholder */", "_self");
+    var gameTwo = gameTwo.open("NameGenerator.html", "_self");
 }         // ADD game url
     
 
