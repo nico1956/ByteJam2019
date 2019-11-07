@@ -31,7 +31,11 @@
 */
 
 
-var gameFive = gameFive.open("/* URL Placeholder */", "_self");
+//var gameFive = gameFive.open("/* URL Placeholder */", "_self"); 
+
+function openHome() {
+    var homePage = homePage.open("index.html", "_self")
+}   // END openHome()
 
 /* Game one open/close */
 function openGameOne() {       // ADD game url
